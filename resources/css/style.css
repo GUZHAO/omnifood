@@ -24,6 +24,18 @@ html {
     text-rendering: optimizeLegibility
 }
 
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /*-------------------------------------*/
 
 /*REUSABLE COMPONENTS*/
@@ -38,7 +50,6 @@ html {
 section {
     padding: 80px 0
 }
-
 
 /*----- Headings ----*/
 
@@ -90,7 +101,7 @@ h2::after {
 .box,
 p {
     font-size: 90%;
-    line-height: 145%;/*?*/
+    line-height: 145%; /*?*/
 }
 
 /* ------ ICON ------ */
@@ -99,7 +110,20 @@ p {
     font-size: 350%;
     display: block;
     color: #e67e22;
-    
+    margin-bottom: 10px;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    /*align text & icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
 }
 
 h3 {
@@ -107,10 +131,26 @@ h3 {
     margin-bottom: 15%;
 }
 
+/*----- Links -----*/
+a:link,
+a:active {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
 /*----- Buttons -----*/
 
 .btn:link,
-/*explore pseudo class*/
+    /*explore pseudo class*/
 
 .btn:visited {
     display: inline-block;
@@ -152,7 +192,6 @@ h3 {
     border: 1px solid #e67e22;
     color: #fff;
 }
-
 
 /*-------------------------------------*/
 
@@ -221,8 +260,6 @@ header {
     margin-bottom: 30px;
 }
 
-
-
 /*-------------------------------------*/
 
 /* MEALS */
@@ -236,10 +273,10 @@ header {
 .meals-showcase {
     list-style: none;
     width: 100%;
-    
+
 }
 
-.meals-showcase li {/*?*/
+.meals-showcase li { /*?*/
     display: block;
     float: left;
     width: 25%;
@@ -265,4 +302,114 @@ header {
     transform: scale(1.03);
 }
 
+/*-------------------------------------*/
 
+/* HOW IT WORKS */
+
+/*-------------------------------------*/
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.works-step div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/*-------------------------------------*/
+
+/* CITIES */
+
+/*-------------------------------------*/
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+/*-------------------------------------*/
+
+/* TESTIMONIALS */
+
+/*-------------------------------------*/
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #ffffff;
+    background-attachment: fixed;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
