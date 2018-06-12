@@ -235,7 +235,7 @@ header {
     margin: 5px 0;
 }
 
-/* Main navi*/
+/* Main navigation*/
 .main-nav {
     float: right;
     list-style: none;
@@ -265,7 +265,7 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
-/*sticky navi*/
+/*sticky navigation*/
 .sticky {
     position: fixed;
     top: 0;

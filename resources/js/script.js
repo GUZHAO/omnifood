@@ -4,7 +4,7 @@
 //     })
 // })
 
-$(document).ready(function () {
+$(function () {
     $('.js--section--features').waypoint(function (direction) {
         if (direction === "down") {
             $('nav').addClass('sticky');
