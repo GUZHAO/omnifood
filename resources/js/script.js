@@ -50,8 +50,8 @@ $('.js--wp-4').waypoint(function (direction) {
     });
 
 $('.js--nav-icon').click(function () {
-    var nav = $('.js--main-nav');
-    var icon = $('.js--nav-icon i');
+    const nav = $('.js--main-nav');
+    const icon = $('.js--nav-icon i');
 
     nav.slideToggle(200);
     if (icon.hasClass('ion-navicon-round')) {
@@ -64,7 +64,7 @@ $('.js--nav-icon').click(function () {
 });
 
 /* Maps */
-var map = new GMaps(
+const map = new GMaps(
     {
         div: '.map',
         lat: 38.7436266,
