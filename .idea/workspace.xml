@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a037358-8bd9-4d86-acb0-c00ae66eb225" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/script.js" afterDir="false" />
-    </list>
+    <list default="true" id="1a037358-8bd9-4d86-acb0-c00ae66eb225" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,7 +15,7 @@
     <session id="658226916">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="2" />
@@ -141,11 +139,6 @@
               <item name="omnifood" type="b2602c69:ProjectViewProjectNode" />
               <item name="omnifood" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="omnifood" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omnifood" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -206,16 +199,15 @@
       <workItem from="1529544621199" duration="8000" />
       <workItem from="1529544646530" duration="1038000" />
       <workItem from="1533397020049" duration="2168000" />
-      <workItem from="1540235470266" duration="2063000" />
+      <workItem from="1540235470266" duration="2177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40739000" />
+    <option name="totallyTimeSpent" value="40853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13883016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
